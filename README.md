@@ -15,4 +15,4 @@ end
 ```
 
 tdlr i spend way to much time at night working on stupid stuff
-![IMG1](https://cdn.zuros.info/uploader/0x59/files/mloyvbs7rtlycs1.png)
+![IMG1](https://arilis.dev/uploader/0x59/files/6424tz5dy47j64s.png)
