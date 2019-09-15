@@ -10,8 +10,22 @@ local respective_signatures = {
 
 local settings = {
     sBx_fix = false,
+    constant_type = "value",
+    register_merging = true,
     opcode_change = 0,
-    structure_corrections = {},
+    structure_corrections = {
+        --chunk_struct = {
+            --[1] = "instructions",
+            --[2] = "constants",
+            --[3] = "prototypes",
+            --[7] = "debuglines"
+        --},
+        --instruction_struct = {
+            --[2] = "A",
+            --[3] = {"B", {"Bx", "sBx"}},
+            --[4] = "C"
+        --}
+    },
     tables = {
         opargs_sig_table = respective_signatures
     },
