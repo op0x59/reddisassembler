@@ -1,7 +1,13 @@
 # chunkdecompiler
 rewritten and better lol how else do i put it.
 
-## Sample preview of output
+## features
+ - jump line detection (some bugs but will be worked out eventually)
+ - structure key correction
+ - catch undefined instructions
+ - add more than base lua instruction set to disassembler
+
+## sample preview of output
 ```lua
 _G.yeet = true
 if _G.yeet == true then 
@@ -14,5 +20,5 @@ else
 end 
 ```
 
-tdlr i spend way to much time at night working on stupid stuff
+tldr i spend way to much time at night working on stupid stuff
 ![IMG1](https://arilis.dev/uploader/0x59/files/6424tz5dy47j64s.png)
