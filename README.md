@@ -1,6 +1,11 @@
 # chunkdecompiler
 rewritten and better lol how else do i put it.
 
+## how this works
+yea so i just hook deserialization for any lbi variant.
+then the main parser handles the rest.
+pretty neat i guess, not real disassembling but im working on it so.
+
 ## features
  - jump line detection (some bugs but will be worked out eventually)
  - structure key correction
