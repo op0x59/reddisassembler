@@ -94,7 +94,7 @@ function disassembler:get_instruction_jump_info(instruction, loaded_instruction,
         return { 
             jump_start = program_counter, 
             jump_end = program_counter + instruction.sBx + 1, 
-            jump_length = jump_end - jump_start 
+            jump_length = (program_counter + instruction.sBx + 1) - program_counter
         }
     end
     return { 
@@ -166,7 +166,7 @@ function disassembler:write_bit_table(n, t, pos)
 end
 
 function disassembler:round(num)
-    local under = math.floor(num)
+    --[[local under = math.floor(num)
     local upper = math.floor(num) + 1
     local underV = -(under - num)
     local upperV = upper - num
@@ -174,7 +174,8 @@ function disassembler:round(num)
         return under
     else
         return upper
-    end
+    end]]
+    return math.floor(num + 1/2)
 end
 
 function disassembler:do_naming(chunk, loaded_instruction, program_counter, disassembled)
