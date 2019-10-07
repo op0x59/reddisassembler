@@ -1,5 +1,6 @@
-# chunkdecompiler
+# reddisassembler
 rewritten and better lol how else do i put it.
+also v3 coming soon cause i don't like v2, and this time it's like an actual disassembler, not a hook.
 
 ## how this works
 yea so i just hook deserialization for any lbi variant.
