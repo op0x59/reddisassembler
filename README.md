@@ -27,4 +27,4 @@ end
 ```
 
 tldr i spend way to much time at night working on stupid stuff
-![IMG1](https://arilis.dev/uploader/0x59/files/6424tz5dy47j64s.png)
+![IMG1](https://i.vgy.me/JujTrC.png)
