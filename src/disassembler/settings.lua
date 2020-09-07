@@ -66,7 +66,7 @@ local settings = {
     tables = {
         op_sigs = op_signature
     },
-    get_opname = function(vxdwd, opcode)
+    get_opname = function(opcode)
         for k,v in pairs(instructions) do
             if v.opcode == opcode then
                 return v.opname
@@ -74,7 +74,7 @@ local settings = {
         end
         return "unknown"
     end,
-    get_instruction = function(cjwsijdw, opcode)
+    get_instruction = function(opcode)
         for k,v in pairs(instructions) do
             if v.opcode == opcode then
                 return v
